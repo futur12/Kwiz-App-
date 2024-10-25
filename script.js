@@ -106,7 +106,7 @@ function onOptionSelect(e) {
     let correctAnswer = questions[questionDisplayed][1]
     if (optionSelected == correctAnswer) {
         incrementScore()
-        loadNextQuestion()
+        // loadNextQuestion()
     } else {
         loadNextQuestion()
     }
